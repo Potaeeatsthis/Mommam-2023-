@@ -154,32 +154,3 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
-
-# files_to_copy = [
-#     "capture_pic/left_screenshot_1.png",
-#     "capture_pic/right_screenshot_1.png",
-# ]
-
-
-# flash_drive_name = "AI"
-
-# flash_drive_path = os.path.join("/Volumes", flash_drive_name)
-
-
-# if not os.path.exists(flash_drive_path):
-#     print(f"Flash drive '{flash_drive_name}' is not mounted.")
-# else:
-#     try:
-#         for source_file in files_to_copy:
-#             if os.path.exists(source_file):
-#                 filename = os.path.basename(source_file)
-#                 shutil.copy(source_file, os.path.join(
-#                     flash_drive_path, filename))
-#                 print(f"Copied '{filename}' to flash drive.")
-#             else:
-#                 print(f"Source file '{source_file}' does not exist.")
-#         print("Done copying files to flash drive.")
-#     except Exception as e:
-#         print(f"An error occurred: {str(e)}")
-
-client = MemoryError("mongodb+srv://<ninninrapat>:<Ninnin081020>@<cluster-url>/<database>?retryWrites=true&w=majority")
